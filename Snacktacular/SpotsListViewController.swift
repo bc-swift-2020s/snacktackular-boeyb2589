@@ -45,7 +45,7 @@ class SpotsListViewController: UIViewController {
     
     func signIn() {
         let providers: [FUIAuthProvider] = [
-            FUIGoogleAuth(),
+            FUIGoogleAuth(), FUIEmailAuth()
         ]
         
         let currentUser = authUI.auth?.currentUser

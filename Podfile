@@ -11,4 +11,5 @@ target 'Snacktacular' do
     pod 'FirebaseUI/Auth'
     pod 'FirebaseUI/Google'
     pod 'SDWebImage', '~> 4.0'
+    pod 'FirebaseUI/Email'
 end

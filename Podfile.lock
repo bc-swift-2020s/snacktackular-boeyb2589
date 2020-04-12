@@ -235,6 +235,8 @@ PODS:
   - FirebaseUI/Auth (8.4.2):
     - Firebase/Auth (~> 6.0)
     - GoogleUtilities/UserDefaults
+  - FirebaseUI/Email (8.4.2):
+    - FirebaseUI/Auth
   - FirebaseUI/Google (8.4.2):
     - FirebaseUI/Auth
     - GoogleSignIn (~> 5.0)
@@ -317,6 +319,7 @@ DEPENDENCIES:
   - Firebase/Firestore
   - Firebase/Storage
   - FirebaseUI/Auth
+  - FirebaseUI/Email
   - FirebaseUI/Google
   - GoogleMaps
   - GooglePlaces
@@ -385,6 +388,6 @@ SPEC CHECKSUMS:
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
 
-PODFILE CHECKSUM: 9f28096ef0b6be0e5fe46e10309d605b8fb810ac
+PODFILE CHECKSUM: 28244bf985e3265e37d31f11ac0cee8dd22e6132
 
 COCOAPODS: 1.9.1
