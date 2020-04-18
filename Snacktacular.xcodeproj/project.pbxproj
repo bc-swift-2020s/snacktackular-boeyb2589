@@ -17,8 +17,11 @@
 		3E8390E5206597F600512DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8390E3206597F600512DEA /* Main.storyboard */; };
 		3E8390E7206597F600512DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8390E6206597F600512DEA /* Assets.xcassets */; };
 		3E8390EA206597F600512DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8390E8206597F600512DEA /* LaunchScreen.storyboard */; };
+		CA122700244BA8A9001A6370 /* Double+roundTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1226FF244BA8A9001A6370 /* Double+roundTo.swift */; };
+		CA122702244BADE9001A6370 /* UIView+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA122701244BADE9001A6370 /* UIView+addBorder.swift */; };
 		CAC6210024424C5400A1E257 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC620FF24424C5400A1E257 /* Spot.swift */; };
 		CAC6210224424C6200A1E257 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC6210124424C6200A1E257 /* Spots.swift */; };
+		CAD57CAE244BBC390017DDCA /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD57CAD244BBC390017DDCA /* ReviewTableViewController.swift */; };
 		CAEF30C824425CF10083F7F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAEF30C724425CF00083F7F8 /* GoogleService-Info.plist */; };
 		CAEF30CA244270AD0083F7F8 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEF30C9244270AD0083F7F8 /* APIkeys.swift */; };
 		E7599AE3BADB034A58C7FCC1 /* Pods_Snacktacular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CA3A29F99DC561C34F070A /* Pods_Snacktacular.framework */; };
@@ -39,8 +42,11 @@
 		3E8390E9206597F600512DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E8390EB206597F600512DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7EF32461A30EBE7E4F489BB /* Pods-Snacktacular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.release.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.release.xcconfig"; sourceTree = "<group>"; };
+		CA1226FF244BA8A9001A6370 /* Double+roundTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+roundTo.swift"; sourceTree = "<group>"; };
+		CA122701244BADE9001A6370 /* UIView+addBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addBorder.swift"; sourceTree = "<group>"; };
 		CAC620FF24424C5400A1E257 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		CAC6210124424C6200A1E257 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
+		CAD57CAD244BBC390017DDCA /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
 		CAEF30C724425CF00083F7F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CAEF30C9244270AD0083F7F8 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
 		F8CA3A29F99DC561C34F070A /* Pods_Snacktacular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snacktacular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +101,9 @@
 				3E0F960B2065A17500AE450D /* SpotDetailViewController.swift */,
 				3E0F960D2065AB6400AE450D /* SpotReviewsTableViewCell.swift */,
 				3E0F960F2065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift */,
+				CAD57CAD244BBC390017DDCA /* ReviewTableViewController.swift */,
+				CA1226FF244BA8A9001A6370 /* Double+roundTo.swift */,
+				CA122701244BADE9001A6370 /* UIView+addBorder.swift */,
 				3E8390E3206597F600512DEA /* Main.storyboard */,
 				3E8390E6206597F600512DEA /* Assets.xcassets */,
 				3E8390E8206597F600512DEA /* LaunchScreen.storyboard */,
@@ -290,9 +299,12 @@
 				3E8390E2206597F600512DEA /* SpotsListViewController.swift in Sources */,
 				3E0F96102065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift in Sources */,
 				3E0F960C2065A17500AE450D /* SpotDetailViewController.swift in Sources */,
+				CA122700244BA8A9001A6370 /* Double+roundTo.swift in Sources */,
 				3E0F960E2065AB6400AE450D /* SpotReviewsTableViewCell.swift in Sources */,
 				3E0F960A20659D9000AE450D /* SpotsTableViewCell.swift in Sources */,
+				CAD57CAE244BBC390017DDCA /* ReviewTableViewController.swift in Sources */,
 				CAC6210024424C5400A1E257 /* Spot.swift in Sources */,
+				CA122702244BADE9001A6370 /* UIView+addBorder.swift in Sources */,
 				3E8390E0206597F600512DEA /* AppDelegate.swift in Sources */,
 				CAC6210224424C6200A1E257 /* Spots.swift in Sources */,
 			);
@@ -370,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -423,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -439,7 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9937BJYLPH;
 				INFOPLIST_FILE = Snacktacular/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boey.Snacktacular;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,7 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9937BJYLPH;
 				INFOPLIST_FILE = Snacktacular/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boey.Snacktacular;
 				PRODUCT_NAME = "$(TARGET_NAME)";
